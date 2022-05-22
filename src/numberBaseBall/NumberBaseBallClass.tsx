@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {ChangeEvent, Component, createRef, FormEvent, useCallback} from "react";
 import Try from "./Try";
-import {TryInfo} from "./types";
+import {TryInfo} from "../types";
 
 
 const getNumbers = () => {

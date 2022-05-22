@@ -3,7 +3,7 @@ import {useState, useRef, useCallback, ChangeEvent, FormEvent} from "react";
 import Try from "./Try";
 import {Simulate} from "react-dom/test-utils";
 import input = Simulate.input;
-import {TryInfo} from "./types";
+import {TryInfo} from "../types";
 
 const getNumbers = () => {
     const candidate = [1,2,3,4,5,6,7,8,9];

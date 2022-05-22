@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {TryInfo} from "./types";
+import {TryInfo} from "../types";
 import {FunctionComponent} from "react";
 
 
