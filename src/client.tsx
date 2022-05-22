@@ -1,6 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import NumberBaseBall from "./NumberBaseBall";
+import NumberBaseBallClass from "./NumberBaseBallClass";
 
-import WordRelay from "./wordRelay/WordRelay";
 
-ReactDOM.render(<WordRelay/>, document.querySelector("#root"));
+
+ReactDOM.render(<NumberBaseBall/>, document.querySelector("#root"));
