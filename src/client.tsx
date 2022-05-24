@@ -6,8 +6,10 @@ import ResponseCheck from "./responsecheck/ResponseCheck";
 import ResponseCheckClass from "./responsecheck/ResponseCheckClass";
 import RSP from "./rsp/RSP";
 import RSPClass from "./rsp/RSPClass";
-import Lotto from "./Lotto";
+import Lotto from "./lotto/Lotto";
+import TicTacToe from "./tictactoe/TicTacToe";
+import MineSearch from "./MineSearch";
 
 
 
-ReactDOM.render(<Lotto/>, document.querySelector("#root"));
+ReactDOM.render(<MineSearch/>, document.querySelector("#root"));
