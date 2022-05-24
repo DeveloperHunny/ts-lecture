@@ -4,9 +4,10 @@ import NumberBaseBall from "./numberBaseBall/NumberBaseBall";
 import NumberBaseBallClass from "./numberBaseBall/NumberBaseBallClass";
 import ResponseCheck from "./responsecheck/ResponseCheck";
 import ResponseCheckClass from "./responsecheck/ResponseCheckClass";
-import RSP from "./RSP";
-import RSPClass from "./RSPClass";
+import RSP from "./rsp/RSP";
+import RSPClass from "./rsp/RSPClass";
+import Lotto from "./Lotto";
 
 
 
-ReactDOM.render(<RSPClass/>, document.querySelector("#root"));
+ReactDOM.render(<Lotto/>, document.querySelector("#root"));
